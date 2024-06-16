@@ -8,7 +8,7 @@ export const Home = ({ state, dispatch }) => html` <${Page}
     title="WEEKLY ECONOMIC NEWS"
     subtitle="By JAMES GITOGO"
     description="Explore the latest economic news and insights. Stay informed about global economic trends and developments."
-    sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
+    sidebarImage=${prefixUriIfNeeded('./assets/default-about.jpg')}
     showLinks=${false}
 >
     <${PostsAndCategories} state=${state} dispatch=${dispatch} />
