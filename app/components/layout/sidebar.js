@@ -159,7 +159,7 @@ export const Sidebar = ({
         </style>
         <aside
             class="sidebar ${menuVisible ? 'sidebar-narrow' : ''}"
-            style=${{ backgroundImage: `url(${sidebarImage})` }}
+            style=${{ backgroundImage: `url('assets/PROKOTO.jpg` }}
         >
             <div class="info">
                 <div class="primary">
